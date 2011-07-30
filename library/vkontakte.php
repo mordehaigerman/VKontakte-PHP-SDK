@@ -110,7 +110,7 @@ class VKontakte
     /**
      * Version.
      */
-    const VERSION = '0.1.1';
+    const VERSION = '0.1.2';
 
     /**
      * API service address through which requests have to be carried out.
