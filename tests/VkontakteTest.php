@@ -16,7 +16,7 @@
  */
 
 /** @see VKontakte */
-require_once realpath(dirname(__FILE__) . '/../src/vkontakte.php');
+require_once realpath(dirname(__FILE__) . '/../library/vkontakte.php');
 
 /** @see PHPUnit_Framework_TestCase */
 require_once 'PHPUnit/Framework/TestCase.php';
@@ -30,7 +30,7 @@ require_once 'PHPUnit/Framework/TestCase.php';
  * @copyright  Copyright (c) 2010 Mordehai German
  * @license    http://www.opensource.org/licenses/bsd-license.php
  */
-class VkontakteTest extends PHPUnit_Framework_TestCase
+class VKontakteTest extends PHPUnit_Framework_TestCase
 {
     const API_URL         = 'http://api.vk.com/api.php';
     const API_ID          = 0;
@@ -155,7 +155,7 @@ class VkontakteTest extends PHPUnit_Framework_TestCase
     public function test__call()
     {
         /**
-         * @todo Complete VkontakteTest->test__call() test
+         * @todo Complete VKontakteTest->test__call() test
          */
         $this->markTestIncomplete('__call test not implemented');
 
@@ -459,7 +459,7 @@ class VkontakteTest extends PHPUnit_Framework_TestCase
     public function testApi()
     {
         /**
-         * @todo Complete VkontakteTest->testApi() test
+         * @todo Complete VKontakteTest->testApi() test
          */
         $this->markTestIncomplete('api test not implemented');
 
