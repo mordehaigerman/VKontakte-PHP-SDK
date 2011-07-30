@@ -271,7 +271,7 @@ class VKontakte
             $this->setOptions($options);
         }
 
-        if (!isset($_GET['api_id'])) {
+        if (!isset($_GET['api_id']) && isset($_SERVER['REQUEST_URI'])) {
             if (false !== ($position = strpos($_SERVER['REQUEST_URI'], '/?'))) {
                 $requestUri = substr($_SERVER['REQUEST_URI'], $position + 2);
                 $parameters = array();
